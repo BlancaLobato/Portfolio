@@ -70,3 +70,42 @@ footer {
     padding: 10px 0;
     margin-top: 20px;
 }
+
+/* Estilo general de la sección */
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #fceef3; /* Color rosa palo */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Imagen de perfil */
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Hace la imagen circular */
+    object-fit: cover;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Texto de la sección */
+.about-text {
+    max-width: 600px;
+    text-align: justify;
+    font-family: 'Georgia', serif; /* Fuente elegante */
+    color: #333;
+}
+
+.about-text h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.about-text p {
+    line-height: 1.8;
+    font-size: 16px;
+}
