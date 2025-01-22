@@ -109,6 +109,15 @@ footer {
     font-size: 16px;
 }
 
+.about-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .about-title {
-    text-align: center;
+    margin: 0 auto;
+    padding: 0;
 }
